@@ -3,4 +3,5 @@ I'm a New Zealand-based student, speedcuber, video editor and programmer, with a
 # I'm currently working on:
 
 [My website](https://website-j83.pages.dev/)
-[CubingApp algdb](https://github.com/spencerchubb/cubingapp/tree/main/alg-codegen/algs)
+<br>
+[CubingApp algdb](https://github.com/spencerchubb/cubingapp/tree/main/alg-codegen/algs) 
