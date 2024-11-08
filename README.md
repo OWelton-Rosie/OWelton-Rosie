@@ -2,6 +2,5 @@ I'm a New Zealand-based student, speedcuber, video editor and programmer, with a
 
 # I'm currently working on:
 
-[My website](https://website-j83.pages.dev/). 
-<br>
-Coded in HTML, CSS and JavaScript, with Cloudflare Pages-GitHub integration. For more information, check out my its repo [here](https://github.com/OWelton-Rosie/website).
+<p> <a href="https://website-j83.pages.dev/">My website</a>. My website is coded in HTML, CSS and JavaScript. Its repo can be found <a href="https://github.com/OWelton-Rosie/website">here</a> .</p>
+
