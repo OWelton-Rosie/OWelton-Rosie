@@ -3,7 +3,7 @@
 ## Projects
 
 ### Random Words Generator
-Generate words to share, save or copy. [https://owelton-rosie.github.io/random-words-generator](Random Words Generator) 
+Generate words to share, save or copy. [https://owelton-rosie.github.io/random-words-generator](https://owelton-rosie.github.io/random-words-generator/) 
 
 ### alg-`jsons`
 A collection of speedcubing algorithm .json files I've written. [https://github.com/OWelton-Rosie/alg-jsons](https://github.com/OWelton-Rosie/alg-jsons)
