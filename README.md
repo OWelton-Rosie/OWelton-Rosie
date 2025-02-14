@@ -6,7 +6,7 @@
 A collection of speedcubing algorithm .json files I've written. [https://github.com/OWelton-Rosie/alg-jsons](https://github.com/OWelton-Rosie/alg-jsons)
 
 ### random-words-generator
-Generate 15 words at a time to share, save or copy. [https://github.com/OWelton-Rosie/random-words-generator](https://github.com/OWelton-Rosie/random-words-generator)
+Generate words to share, save or copy. [https://github.com/OWelton-Rosie/random-words-generator](https://github.com/OWelton-Rosie/random-words-generator)
 
 
 ## My GitHub stats:
