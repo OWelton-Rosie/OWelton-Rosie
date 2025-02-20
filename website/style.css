@@ -43,9 +43,7 @@ nav a {
     padding: 10px 0;
 }
 
-nav a:hover {
-    background-color: #555;
-}
+
 
 /* Main Content */
 .content {
@@ -141,26 +139,7 @@ section ul {
     }
 }
 
-/* Speedcubing link */
-.speedcubing-link {
-    font-weight: bold;
-    color: #ff6600; /* Change color to make it stand out */
-    padding-bottom: 2px;
-    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
-}
 
-.speedcubing-link:hover {
-    color: #cc5500; /* Slightly darker on hover */
-    border-color: #cc5500;
-}
-
-/* Contact section layout */
-#contact h4,
-#contact p,
-#contact a {
-    display: block;  /* Makes each link appear on a new line */
-    margin-bottom: 10px; /* Adjust spacing */
-}
 
 /* ========= Cool Link Effects ========= */
 
@@ -176,7 +155,7 @@ a:not(.nav-link)::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -3px;
+    bottom: 0px; /* Adjusted for better positioning */
     width: 0;
     height: 2px;
     background: linear-gradient(to right, #e74c3c, #ff9a8b);
