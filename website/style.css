@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    width: 100%;
+}
+
+a {
+    color:rgb(26, 104, 221);
+}
+
+a :visited {
+    color:rgb(26, 104, 221);
+}
+
+/* Sidebar Navigation (Desktop) */
+nav {
+    background-color: #333;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Main Content */
+.content {
+    margin-left: 220px; /* Offset for sidebar */
+    padding: 50px;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Align h1 with section text */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 20px; /* Aligns with section padding */
+}
+
+/* Sections Styling */
+section {
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: left;
+}
+
+/* Left-align all headings and text */
+h2, h3, h4, p, ul, li {
+    text-align: left;
+}
+
+/* Adjusted h4 styling for better balance */
+section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: #333; /* Matches the color of other headings */
+}
+
+
+/* Increase spacing between headings and text */
+section h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+section p, 
+section ul {
+    margin-top: 10px;
+}
+
+/* Responsive Design: Mobile-Friendly Layout */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    /* Switch to a top nav bar */
+    nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 0 10px;
+        padding: 10px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 20px;
+        width: 100%;
+    }
+
+    h1 {
+        padding-left: 0; /* Aligns h1 naturally on mobile */
+        text-align: center; /* Centers it for mobile readability */
+    }
+
+    section {
+        width: 95%;
+        padding: 15px;
+    }
+}
+
+.speedcubing-link {
+    font-weight: bold;
+    color: #ff6600; /* Change color to make it stand out */
+    padding-bottom: 2px;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.speedcubing-link:hover {
+    color: #cc5500; /* Slightly darker on hover */
+    border-color: #cc5500;
+}
+
