@@ -162,3 +162,10 @@ section ul {
     border-color: #cc5500;
 }
 
+#contact h4,
+#contact p,
+#contact a {
+    display: block;  /* Makes each link appear on a new line */
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
