@@ -43,8 +43,6 @@ nav a {
     padding: 10px 0;
 }
 
-
-
 /* Main Content */
 .content {
     margin-left: 220px; /* Offset for sidebar */
@@ -139,8 +137,6 @@ section ul {
     }
 }
 
-
-
 /* ========= Cool Link Effects ========= */
 
 /* Style for all non-nav links */
@@ -211,3 +207,48 @@ a:not(.nav-link):hover::after {
 .nav-link:hover {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
 }
+
+.speedcubing-link {
+    font-weight: bold;
+    color: #ff6600; /* Orange to make it stand out */
+    border-bottom: 2px solid #ff6600; /* Underline for emphasis */
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+.speedcubing-link:hover {
+    color: #cc5500;
+    border-bottom: 2px solid #cc5500;
+}
+
+/* Ensures the back-link stays compact and doesn't expand */
+.back-link {
+    text-decoration: none; /* No underline */
+    color: #007bff;
+    font-weight: bold;
+    display: inline-flex; /* Keeps icon and text inline */
+    align-items: center; /* Vertically aligns the icon and text */
+    padding: 5px 10px; /* Adjust padding */
+    margin: 0; /* Ensures no extra margin is added */
+    width: auto; /* Ensures the link doesn't stretch */
+    white-space: nowrap; /* Prevents the text from wrapping and expanding */
+}
+
+.back-link i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+/* Remove default link styles from this specific link */
+.back-link:hover {
+    text-decoration: none; /* Prevent underline on hover */
+    color: #0056b3; /* Darker color on hover */
+}
+
+/* Optional: Reduce font size and line height to avoid expanding */
+.back-link span {
+    font-size: 16px; /* Control the font size */
+    line-height: 1.2; /* Adjust line height for better spacing */
+}
+
+
+
