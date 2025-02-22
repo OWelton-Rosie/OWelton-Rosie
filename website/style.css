@@ -221,34 +221,7 @@ a:not(.nav-link):hover::after {
     border-bottom: 2px solid #cc5500;
 }
 
-/* Ensures the back-link stays compact and doesn't expand */
-.back-link {
-    text-decoration: none; /* No underline */
-    color: #007bff;
-    font-weight: bold;
-    display: inline-flex; /* Keeps icon and text inline */
-    align-items: center; /* Vertically aligns the icon and text */
-    padding: 5px 10px; /* Adjust padding */
-    margin: 0; /* Ensures no extra margin is added */
-    width: auto; /* Ensures the link doesn't stretch */
-    white-space: nowrap; /* Prevents the text from wrapping and expanding */
-}
 
-.back-link i {
-    margin-right: 5px; /* Space between icon and text */
-}
-
-/* Remove default link styles from this specific link */
-.back-link:hover {
-    text-decoration: none; /* Prevent underline on hover */
-    color: #0056b3; /* Darker color on hover */
-}
-
-/* Optional: Reduce font size and line height to avoid expanding */
-.back-link span {
-    font-size: 16px; /* Control the font size */
-    line-height: 1.2; /* Adjust line height for better spacing */
-}
 
 
 
