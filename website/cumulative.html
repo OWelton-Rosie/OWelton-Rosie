@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumulative time limit calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            color: #333;
+        }
+        input {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 200px;
+            text-align: center;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #solveTimesContainer {
+            margin: 10px;
+        }
+        #result {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <h2>Cumulative time limit calculator</h2>
+
+    <br>
+    <br>
+
+    <label for="timeLimit">Enter total Time Limit (mm:ss.sss):</label>
+    <input type="text" id="timeLimit" placeholder="10:00.000" oninput="checkTimeLimit()">
+
+
+    <div id="solveTimesContainer"></div>
+    <button onclick="addSolveTimeBox()">Add Solve</button>
+    <p id="result"></p>
+
+
+    <script>
+        function addSolveTimeBox() {
+            const container = document.getElementById("solveTimesContainer");
+            const input = document.createElement("input");
+            input.type = "text";
+            input.placeholder = "mm:ss.sss";
+            input.className = "solveTime";
+            input.oninput = checkTimeLimit;
+            container.appendChild(input);
+            container.appendChild(document.createElement("br"));
+        }
+
+        function timeToSeconds(timeStr) {
+            const parts = timeStr.split(':');
+            if (parts.length === 2) {
+                const [minutes, seconds] = parts;
+                return parseFloat(minutes) * 60 + parseFloat(seconds);
+            }
+            return parseFloat(timeStr) || 0;
+        }
+
+        function checkTimeLimit() {
+            const timeLimit = timeToSeconds(document.getElementById("timeLimit").value.trim());
+            const inputs = document.querySelectorAll(".solveTime");
+            const times = Array.from(inputs).map(input => timeToSeconds(input.value.trim()));
+            
+            let totalTime = 0;
+            for (let time of times) {
+                totalTime += time;
+                if (totalTime > timeLimit) {
+                    document.getElementById("result").innerText = `Cumulative time limit exceeded! Total cumulative time: ${totalTime.toFixed(3)} seconds.`;
+                    document.getElementById("result").style.color = "red";
+                    return;
+                }
+            }
+            document.getElementById("result").innerText = `Within limit. Total cumulative time: ${totalTime.toFixed(3)} seconds.`;
+            document.getElementById("result").style.color = "green";
+        }
+
+        // Add three solve time boxes by default
+        window.onload = function() {
+            for (let i = 0; i < 3; i++) {
+                addSolveTimeBox();
+            }
+        };
+    </script>
+
+    <br>
+    <br>
+
+<h3><a href="index.html">Written by Oscar Welton-Rosie</a>.</h3>
+
+
+</body>
+</html>
