@@ -3,29 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cumulative time limit calculator</title>
+    <title>Cumulative Time Limit calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <div class="container">
+        <h2>Cumulative Time Limit calculator</h2>
 
+        <label for="timeLimit">Enter total Time Limit (mm:ss.sss):</label>
+        <input type="text" id="timeLimit" placeholder="10:00.000" oninput="checkTimeLimit()">
 
-    <h2>Cumulative time limit calculator</h2>
+        <div id="solveTimesContainer"></div>
 
-    <br>
-    <br>
+        <button onclick="addSolveTimeBox()">Add attempt</button>
 
-    <label for="timeLimit">Enter total Time Limit (mm:ss.sss):</label>
-    <input type="text" id="timeLimit" placeholder="10:00.000" oninput="checkTimeLimit()">
-
-
-    <div id="solveTimesContainer"></div>
-    <button onclick="addSolveTimeBox()">Add Solve</button>
-    <p id="result"></p>
+        <p id="result"></p>
+    </div>
 
     <script src="full.js"></script>
-
-
 
 </body>
 </html>
