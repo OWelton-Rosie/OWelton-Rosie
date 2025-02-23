@@ -221,7 +221,17 @@ a:not(.nav-link):hover::after {
     border-bottom: 2px solid #cc5500;
 }
 
+::selection {
+    /* Change highlight background color to black */
+    background: #f3add9;
+  }
 
+  .caption {
+    margin-top: 5px; 
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
 
 
 
