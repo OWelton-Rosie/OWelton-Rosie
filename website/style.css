@@ -273,5 +273,11 @@ li:hover {
     background: #e9ecef; /* Slightly darker on hover */
 }
 
+img {
+    max-width: 50%;
+    height: auto;
+    display: block; 
+}
+
 
 
