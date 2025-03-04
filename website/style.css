@@ -4,6 +4,12 @@ body {
     margin-left: 1.5%;
 }
 
+/* Highlight background color */
+::selection {
+
+    background:rgb(44, 194, 82)
+  }
+
 /* Links */
 a {
     color:rgb(4, 113, 31)
@@ -16,4 +22,8 @@ a:visited {
 a:hover {
     color:rgb(3, 73, 21)
 }
+
+
+
+
 
