@@ -1,0 +1,19 @@
+/* General body */
+body {
+    font-family: arial, sans-serif;
+    margin-left: 1.5%;
+}
+
+/* Links */
+a {
+    color:rgb(4, 113, 31)
+}
+
+a:visited {
+    color:rgb(4, 113, 31)
+}
+
+a:hover {
+    color:rgb(3, 73, 21)
+}
+
