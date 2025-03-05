@@ -1,57 +1,86 @@
 <!DOCTYPE html>
-<html lang="en-NZ">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Welcome to the personal page of Oscar Welton-Rosie. Learn more about his interests in programming, Rubik's Cubes, and classical music.">
-    <meta name="author" content="Oscar Welton-Rosie">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Oscar Welton-Rosie, Rubik's Cube, YouTube, Programming, Classical Music, Technology, GitHub">
     <title>Oscar Welton-Rosie</title>
-    
-    <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    
 </head>
 <body>
-    <header>
-        <h1>Hi, I'm Oscar</h1>
-        <p>Welcome to my website!</p>
-    </header>
+    <nav>
+        </div>
+        <div class="nav-links">
+            <h2><a href="#">Oscar Welton-Rosie</a></h2>
+            <a href="#about" class="nav-link">About me</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
 
-    <section>
-        <h2>About me</h2>
-        <p>I'm Oscar, a New Zealand-based enthusiast who loves to code, solve puzzles, create content, and listen to classical music. Explore my website to see what I'm up to!</p>
-    </section>
+            <br>
+            
+            <a href="speedcubing.html" class="nav-link speedcubing-link">Speedcubing</a>
 
-    <section>
-        <h3>These are the things I do most frequently:</h3>
-        <ul>
-            <li>Study and learn new things</li>
-            <li>Write computer code</li>
-            <li>Solve Rubik's Cubes and other puzzles</li>
-            <li>Create content (yes, even poor-quality YouTube videos!)</li>
-            <li>Enjoy classical music (especially piano pieces)</li>
-        </ul>
-    </section>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Oscar Welton-Rosie</h1>
 
-    <section>
-        <h3>Links:</h3>
-        <ul>
-            <li><a href="https://www.youtube.com/@oscarW-R" target="_blank" aria-label="Visit Oscar's YouTube Channel">My YouTube Channel</a></li>
-            <li><a href="https://www.youtube.com/watch?v=y0943Kqvdiw" target="_blank" aria-label="A video of me solving a Rubik's Cube">A video of me solving a Rubik's Cube</a></li>
-            <li><a href="https://github.com/OWelton-Rosie" target="_blank" aria-label="View my GitHub profile">My GitHub Profile</a></li>
-            <li><a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank" aria-label="Visit my cubing competitor profile">My Cubing Profile</a></li>
-        </ul>
-    </section>
+        <section id="about">
+            <h2>About me</h2>
+            <p>Hi! I'm Oscar, a New Zealand developer specialising in client-side web development. I enjoy building efficient, user-friendly applications.</p>
 
-    <section>
-        <h3>Contact me</h3>
-        <p>If you'd like to get in touch, feel free to send me an email at <a href="mailto:oweltonrosie@proton.me" aria-label="Send an email to Oscar Welton-Rosie">oweltonrosie@proton.me</a>. I'll get back to you as soon as I can!</p>
-    </section>
+            <p>When I'm not coding, I enjoy sport, video editing and <a href="speedcubing.html">solving the Rubik's Cube</a>.</p>
+        </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Oscar Welton-Rosie. All rights reserved.</p>
-    </footer>
+        <section id="projects">
+            <h2>Projects</h2>
+            <h4><a href="https://random-words-generator.pages.dev/" target="_blank">Random Words Generator</a></h4>
+            <p>A simple, beautiful and fast web app that generates random words. Built with JavaScript, CSS and HTML.</p>
 
+            <h4><a href="https://cumulative.pages.dev/" target="_blank">Cumulative time limit calculator</a></h4>
+            <p>A simple speedcubing cumulative time limit calculator. Uses the cache to work offline, provided the user has <a href="https://www.cloudflare.com/learning/cdn/what-is-caching/" target="_blank">cached</a> the page. Built in JavaScript, HTML and CSS.</p>
+
+            <h4><a href="https://snz-new.pages.dev" target="_blank">SNZ-new</a></h4>
+            <p>A proposed alternative to the current Speedcubing New Zealand website. Built with HTML, CSS and JavaScript</p>
+
+            <h4><a href="https://github.com/OWelton-Rosie/JS-lib" target="_blank">JS-lib</a></h4>
+            <p>A fairly comprehensive collection of JavaScript files I've written.</p>
+
+            <h4><a href="https://random-css-page.pages.dev/" target="_blank">Random CSS Page</a></h4>
+            <p>Every 3-5 seconds, the page randomly displays 1 of 3 CSS files. Built with JavaScript and CSS.</p>
+
+            <h4><a href="https://tinyurl.com/mpr44uw3" target="_blank">Wellington competition venues</a></h4>
+            <p>A spreadsheet of speedcubing competition venues in my hometown</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>I'm currently in New Zealand, and it's <span id="timeDisplay"></span>, my time.</p>
+            <p>Email: <a href="mailto:oweltonrosie@proton.me" target="_blank">oweltonrosie@proton.me</a></p>
+            <h4>Socials:</h4>
+            <br>
+            <a href="https://github.com/OWelton-Rosie" target="_blank">GitHub</a> 
+
+            <br>
+            <br>
+
+            <a href="https://www.strava.com/athletes/120805648" target="_blank">Strava</a>
+
+            <br>
+            <br>
+
+            <a href="https://youtube.com/@OscarW-R" target="_blank">YouTube</a>
+            <br>
+            <br>
+
+            <p>Discord: @iamoscar1</p>
+
+            <script src="./date_time.js"></script>
+
+
+        </section>
+    </div>
+    
 </body>
 </html>
