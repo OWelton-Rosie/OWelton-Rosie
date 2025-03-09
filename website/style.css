@@ -1,0 +1,22 @@
+body {
+    background-color:white;
+    font-family: Arial, sans-serif;
+    text-align:left;
+    color:black;
+    margin-top:2.5%;
+    margin-left:10%;
+    padding: 0;
+}
+
+a {
+    color: rgb(21, 147, 12);
+}
+
+a:visted {
+    color: rgb(21, 147, 12);
+}
+
+::selection {
+    background-color: rgb(241, 139, 209);
+  }
+  
