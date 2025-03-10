@@ -6,6 +6,7 @@ body {
     color:black;
     margin-top:2.5%;
     margin-left:10%;
+    margin-right:10%;
     padding: 0;
 }
 
@@ -36,11 +37,10 @@ a:hover {
 
 /* Styling for Project cards */
 .project {
-    background-color: #fff;
+    background-color: #e3e0e0;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
