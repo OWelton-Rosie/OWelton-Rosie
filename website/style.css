@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     background-color:white;
     font-family: Arial, sans-serif;
@@ -8,15 +9,52 @@ body {
     padding: 0;
 }
 
+/* Links */
 a {
     color: rgb(21, 147, 12);
+    text-decoration: none;
 }
 
 a:visted {
     color: rgb(21, 147, 12);
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight colour */
 ::selection {
     background-color: rgb(241, 139, 209);
   }
+
+
+  /* Styling for Projects Section */
+.projects {
+    margin-bottom: 40px;
+}
+
+/* Styling for Project cards */
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.project p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact {
+    margin-bottom:100px;
+}
+
   
