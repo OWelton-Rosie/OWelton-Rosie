@@ -52,9 +52,9 @@ a:hover {
     font-size: 1rem;
     margin-bottom: 10px;
 }
-
+ /* Add a large space at the bottom of the page */
 .contact {
-    margin-bottom:100px;
+    margin-bottom:150px;
 }
 
   
