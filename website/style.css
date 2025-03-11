@@ -27,11 +27,9 @@ a:hover {
     opacity: 0.8;
 }
 
-/* Highlight color */
 ::selection {
-    background-color: #f492d5;
-    color: white;
-}
+    background-color: rgb(241, 139, 209);
+  }
 
 /* Projects Section */
 .projects {
