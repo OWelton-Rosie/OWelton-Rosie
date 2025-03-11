@@ -30,6 +30,7 @@ a:hover {
 /* Highlight color */
 ::selection {
     background-color: #f492d5;
+    color: white;
 }
 
 /* Projects Section */
@@ -45,6 +46,11 @@ a:hover {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
 .project h3 {
@@ -75,6 +81,12 @@ a:hover {
     width: 100%;
 }
 
+/* Project Description */
+.project p {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 12px;
+}
 
 /* Bottom spacing for Contact section */
 .contact {
@@ -89,5 +101,9 @@ a:hover {
 
     .project {
         padding: 20px;
+    }
+
+    .project h3 {
+        font-size: 1.3rem;
     }
 }
