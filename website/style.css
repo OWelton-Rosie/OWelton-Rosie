@@ -1,60 +1,93 @@
 /* General body styling */
 body {
-    background-color:white;
-    font-family: Arial, sans-serif;
-    text-align:left;
-    color:black;
-    margin-top:2.5%;
-    margin-left:10%;
-    margin-right:10%;
+    background-color: #f9f9f9;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: black;
+    margin: 3% 10%;
     padding: 0;
+    line-height: 1.7;
 }
 
 /* Links */
 a {
-    color: rgb(21, 147, 12);
+    color: #0ea960;
     text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, opacity 0.3s ease;
 }
 
-a:visted {
-    color: rgb(21, 147, 12);
+a:visited {
+    color: #0c8a50;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #096c3e;
+    opacity: 0.8;
 }
 
-/* Highlight colour */
+/* Highlight color */
 ::selection {
-    background-color: rgb(241, 139, 209);
-  }
-
-
-  /* Styling for Projects Section */
-.projects {
-    margin-bottom: 40px;
+    background-color: #f492d5;
 }
 
-/* Styling for Project cards */
+/* Projects Section */
+.projects {
+    margin-bottom: 50px;
+}
+
+/* Project Cards */
 .project {
-    background-color: #ebe7e7; /* Subtle visual difference from the bg colour */
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
+    background: white;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .project h3 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: black;
-}
-
-.project p {
-    font-size: 1rem;
     margin-bottom: 10px;
-}
- /* Add a large space at the bottom of the page */
-.contact {
-    margin-bottom:150px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
 }
 
-  
+.project h3::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(90deg, #f492d5, #0ea960);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    border-radius: 2px;
+    transition: width 0.3s ease-in-out;
+}
+
+.project h3:hover::after {
+    width: 100%;
+}
+
+
+/* Bottom spacing for Contact section */
+.contact {
+    margin-bottom: 150px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        margin: 5%;
+    }
+
+    .project {
+        padding: 20px;
+    }
+}
