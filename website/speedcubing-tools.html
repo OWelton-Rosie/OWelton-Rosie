@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Some speedcubing tools I've written.">
+    <meta name="author" content="Oscar Welton-Rosie">
+    <meta name="keywords" content="Speedcubing, tools, speedcubing tools, cumulative time limit calculator, Wellington competition venues">
+    <title>Speedcubing tools</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+.home-link {
+    display: inline-block;
+    font-size: 1rem;
+    color: #0ea960;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.home-link:hover {
+    color: #096c3e;
+    text-decoration: underline;
+}
+
+/* Tools Section */
+.tools {
+    margin-bottom: 50px;
+}
+
+/* Tool Cards */
+.tool {
+    background: white;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.tool:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.tool h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+}
+
+.tool h3::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(90deg, #f492d5, #0ea960);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    border-radius: 2px;
+    transition: width 0.3s ease-in-out;
+}
+
+.tool h3:hover::after {
+    width: 100%;
+}
+
+/* Project Description */
+.tool p {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 12px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="home-link">← Back to Homepage</a>
+        </nav>
+        <h1>Speedcubing tools</h1>
+        <p>On this page, you'll find a collection of tools useful for speedcubing.</p>
+    </header>
+
+    <section class="tools">
+        <div class="tool">
+            <h3>Cumulative time limit calculator</h3>
+            <p>A simple speedcubing cumulative time limit calculator.</p>
+            <a href="https://random-words-generator.pages.dev/" target="_blank">Website</a>. 
+            <a href="https://github.com/OWelton-Rosie/Random-Words-Generator" target="_blank">GitHub repository</a>.
+        </div>
+
+        <div class="tool">
+            <h3>Wellington competition venues</h3>
+            <p>A catalogue of speedcubing competition venues in Wellington, New Zealand.</p>
+            <a href="https://docs.google.com/spreadsheets/d/1N_v2JSk05FaGrGzqZfEYT8AWsGhw28_eNc0HnubojwI/edit?gid=1285111296#gid=1285111296" target="_blank">View sheet</a>.
+        </div>
+
+        <div class="tool">
+            <h3>Cubing phonetic alphabet</h3>
+            <p>Work in progress!</p>
+        </div>
+    </section>
+</body>
+</html>
