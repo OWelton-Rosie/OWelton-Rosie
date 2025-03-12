@@ -31,61 +31,6 @@ a:hover {
     background-color: rgb(241, 139, 209);
   }
 
-/* Projects Section */
-.projects {
-    margin-bottom: 50px;
-}
-
-/* Project Cards */
-.project {
-    background: white;
-    padding: 24px;
-    margin-bottom: 24px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
-}
-
-.project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-}
-
-.project h3 {
-    font-size: 1.5rem;
-    color: black;
-    margin-bottom: 10px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    position: relative;
-    display: inline-block;
-}
-
-.project h3::after {
-    content: "";
-    display: block;
-    width: 50%;
-    height: 3px;
-    background: linear-gradient(90deg, #f492d5, #0ea960);
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    border-radius: 2px;
-    transition: width 0.3s ease-in-out;
-}
-
-.project h3:hover::after {
-    width: 100%;
-}
-
-/* Project Description */
-.project p {
-    font-size: 1rem;
-    color: black;
-    margin-bottom: 12px;
-}
-
 /* Bottom spacing for Contact section */
 .contact {
     margin-bottom: 150px;
