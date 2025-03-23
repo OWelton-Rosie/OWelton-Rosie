@@ -31,9 +31,12 @@ a:hover {
     background-color: rgb(241, 139, 209);
   }
 
-/* Bottom spacing for Contact section */
 .contact {
-    margin-bottom: 150px;
+    margin-top: 30px;
+}
+
+ul li {
+    margin-top: 5px;
 }
 
 /* Responsive Design */
