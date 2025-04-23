@@ -40,6 +40,10 @@ ul li {
     margin-top: 0.5px;
 }
 
+footer {
+    margin-top:70px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
