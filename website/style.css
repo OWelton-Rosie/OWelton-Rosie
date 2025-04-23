@@ -1,14 +1,14 @@
 /* General body styling */
 body {
     background-color: #f9f9f9;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Arial', sans-serif;
     text-align: left;
     color: black;
     margin: 3% 10%;
     padding: 0;
     line-height: 1.7;
-    font-weight: 10000;
-}
+    font-weight: 500;
+    }
 
 /* Links */
 a {
