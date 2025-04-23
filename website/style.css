@@ -28,7 +28,7 @@ a:hover {
 }
 
 ::selection {
-    background-color: rgb(241, 139, 209);
+    background-color: rgb(248, 175, 225);
   }
 
 .contact {
@@ -36,7 +36,7 @@ a:hover {
 }
 
 ul li {
-    margin-top: 5px;
+    margin-top: 0.5px;
 }
 
 /* Responsive Design */
