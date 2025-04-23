@@ -1,4 +1,7 @@
 # Oscar Welton-Rosie
-There's a small chance that I might be a nerd.
+
+## My GitHub stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=OWelton-Rosie&theme=cobalt&show_icons=true&hide_border=true&layout=compact)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=OWelton-Rosie&theme=cobalt&show_icons=true&hide_border=true&count_private=true)
 
 <a href="https://owelton-rosie.pages.dev/">https://owelton-rosie.pages.dev/</a>
