@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-NZ">
 <head>
@@ -10,95 +9,37 @@
     <meta name="keywords" content="Oscar Welton-Rosie, Oscar, Welton-Rosie">
 
     <title>Oscar Welton-Rosie</title>
+
     <!-- External assets/CSS -->
     <link rel="icon" type="image/x-icon" href="favicon.jpeg">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
 
     <!-- Font Awesome for social media icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 
-<!-- Body -->
 <body>
     <header>
         <h1>Oscar Welton-Rosie</h1>
+        <nav class="nav-buttons">
+            <a href="./index.html" class="nav-btn">Home</a>
+            <a href="./about.html" class="nav-btn">About</a>
+            <a href="./speedcubing.html" class="nav-btn">Speedcubing</a>
+            <a href="./projects.html" class="nav-btn">Projects</a>
+            <a href="./contact.html" class="nav-btn">Contact</a>
+        </nav>
     </header>
 
-    <h1>Projects</h1>
-    <p>The following are all projects I own or maintain.</p>
-    <div class="project-list">
-        <div class="project-card">
-            <h2>Random Words Generator</h2>
-            <p>A web app that generates random words from a stored wordlist. Built with JavaScript, CSS and HTML.</p>
-            <a href="https://random-words-generator.pages.dev" target="_blank">Website</a>
-            <br>
-            <a href="https://github.com/OWelton-Rosie/random-words-generator" target="_blank">GitHub</a>
-        </div>
-        <div class="project-card">
-            <h2>Cumulative Time Limit Calculator</h2>
-            <p>A simple speedcubing cumulative time limit calculator. Uses the brower's cache function for offline usage. Built with JavaScript, HTML and CSS.</p>
-            <a href="https://cumulative.pages.dev" target="_blank">Website</a>
-            <br>
-            <a href="https://github.com/OWelton-Rosie/Cumulative-calculator" target="_blank">GitHub</a>
-        </div>
-        <div class="project-card">
-            <h2>WCA Profile Link Shortener</h2>
-            <p>Shortens default <code>https://www.worldcubeassociation.org</code> links to <code>https://wca.link</code> links. Uses the open-source <a href="https://github.com/thewca/wca.link" target="_blank">wca.link</a> project. Built with JavaScript, CSS and HTML.</p>
-            <a href="https://wca-link-shortener.pages.dev/" target="_blank">Website</a>
-            <br>
-            <a href="https://github.com/OWelton-Rosie/wca-profile-link-shortener" target="_blank">GitHub</a>
-        </div>
-        <div class="project-card">
-            <h2>Proposed Speedcubing New Zealand Website</h2>
-            <p>A proposed alternative to the <a href="https://speedcubing.nz" target="_blank">current Speedcubing New Zealand website</a>. Built with HTML, CSS and JavaScript.</p>
-            <a href="https://snz-new.pages.dev" target="_blank">Website</a>
-            <br>
-            <a href="https://github.com/OWelton-Rosie/SNZ-new" target="_blank">GitHub</a>
-        </div>
-        <div class="project-card">
-            <h2>Proposed Today In Discord Website</h2>
-            <p>A proposed website for the Discord bot Today In Discord. Built with CSS, HTML and JavaScript.</p>
-            <a href="https://tid-site.pages.dev/" target="_blank">Website</a>
-            <br>
-            <a href="https://github.com/OWelton-Rosie/TID-site" target="_blank">GitHub</a>
-        </div>
-        <div class="project-card">
-            <h2>Random CSS Page</h2>
-            <p>Every 3-5 seconds, the page randomly displays 1 of 3 CSS files. Built with CSS, JavaScript and HTML.</p>
-            <a href="https://random-css-page.pages.dev" target="_blank">Website</a>
-            <br>
-            <a href="https://github.com/OWelton-Rosie/Random-CSS-Page" target="_blank">GitHub</a>
-        </div>
-        <div class="project-card">
-            <h2>Personal Website</h2>
-            <p>You're looking at it!</p>
-        </div>
-    </div>
-    
 
-    <h1>Open source contributions</h1>
-    <p>I have made signifcant contributions to the following projects.</p>
-    <ul>
-        <li><a href="https://github.com/spencerchubb/cubingapp" target="_blank">spencerchubb/cubingapp</a></li>
-    </ul>
 
-    <h1>Contact me</h1>
-    <p>I'm currently in Wellington, New Zealand and it's <strong><span id="timeDisplay">loading...</span></strong> my time.</p>
-    <p>If you want to get in touch, feel free to send an email to <a href="mailto:oweltonrosie@proton.me" target="_blank">oweltonrosie@proton.me</a>, or message me on <strong>Discord:</strong> @iamoscar1.</p>
-
-    <h1>Links/socials</h1>
-    <ul>
-        <li><a href="https://github.com/OWelton-Rosie" target="_blank"><i class="fab fa-github"></i> GitHub profile</a></li>
-        <li><a href="https://www.youtube.com/@OscarW-R" target="_blank"><i class="fab fa-youtube"></i> YouTube channel</a></li>
-        <li><a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank"><i class="fas fa-cube"></i> Speedcubing competitor profile</a></li>   
-        <li><a href="https://www.strava.com/athletes/120805648" target="_blank"><i class="fab fa-strava"></i> Strava profile</a></li>
-        <li><a href="https://photos.app.goo.gl/hQsWovR1ucnhaUZd6" target="_blank"><i class="fa-solid fa-camera"></i> A collection of photos I've taken</a></li>
-    </ul>
 
     <footer>
         <p>Copyright &copy; Oscar Welton-Rosie, <span id="currentYear"></span>.</p>
     </footer>
 
-    <script src="./scripts/date_time.js"></script>
     <script src="./scripts/year.js"></script>
+</body>
 </html>
