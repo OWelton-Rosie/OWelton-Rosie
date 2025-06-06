@@ -2,7 +2,7 @@
 <html lang="en-NZ">
 <head>
     <!-- Meta stuff -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hi.">
     <meta name="author" content="Oscar Welton-Rosie">
@@ -15,40 +15,57 @@
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/project-languages.css">
 
-      <!-- Font Awesome for social media icons -->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
+  <header>
+    <nav class="nav-buttons">
+      <a href="./index.html" class="nav-btn">Home</a>
+      <a href="./about.html" class="nav-btn">About</a>
+      <a href="./speedcubing.html" class="nav-btn">Speedcubing</a>
+      <a href="./projects.html" class="nav-btn">Projects</a>
+      <a href="./contact.html" class="nav-btn">Contact</a>
+    </nav>
+    <h1>About me</h1>
+  </header>
 
-    <header>
-        <nav class="nav-buttons">
-            <a href="./index.html" class="nav-btn">Home</a>
-            <a href="./about.html" class="nav-btn">About</a>
-            <a href="./speedcubing.html" class="nav-btn">Speedcubing</a>
-            <a href="./projects.html" class="nav-btn">Projects</a>
-            <a href="./contact.html" class="nav-btn">Contact</a>
-        </nav>
-        <h1>About me</h1>
-    </header>
+  <h2>Hey, I'm Oscar!</h2>
+  <p>
+    I'm a New Zealand high school student,
+    <a href="./projects.html">web developer</a>,
+    <a href="./speedcubing.html">speedcuber</a>,
+    athlete and Formula 1 fan.
+  </p>
 
-    <h2>Hey, I'm Oscar!</h2>
-    <p>I'm a New Zealand high school student, <a hef="./projects.html">coder</a>, <a href="./speedcubing.html">speedcuber</a>, athlete and Formula 1 fan.</p>
+  <h1>My Tech Stack</h1>
+  <p>I work with the following languages:</p>
+  <div class="language-tags">
+    <span class="lang-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+    <span class="lang-tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+    <span class="lang-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+  </div>
 
-    <h1>Links/socials</h1>
-    <ul class="social-links">
-        <li><a href="https://github.com/OWelton-Rosie" target="_blank"><i class="fab fa-github"></i> GitHub profile</a></li>
-        <li><a href="https://www.youtube.com/@OscarW-R" target="_blank"><i class="fab fa-youtube"></i> YouTube channel</a></li>
-        <li><a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank"><i class="fas fa-cube"></i> Speedcubing competitor profile</a></li>   
-        <li><a href="https://www.strava.com/athletes/120805648" target="_blank"><i class="fab fa-strava"></i> Strava profile</a></li>
-        <li><a href="https://photos.app.goo.gl/hQsWovR1ucnhaUZd6" target="_blank"><i class="fa-solid fa-camera"></i> A collection of photos I've taken</a></li>
-    </ul>
+  <h1>Links/socials</h1>
+  <ul class="social-links">
+    <li><a href="https://github.com/OWelton-Rosie" target="_blank"><i class="fab fa-github"></i> GitHub profile</a></li>
+    <li><a href="https://www.youtube.com/@OscarW-R" target="_blank"><i class="fab fa-youtube"></i> YouTube channel</a></li>
+    <li><a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank"><i class="fas fa-cube"></i> Speedcubing competitor profile</a></li>
+    <li><a href="https://www.strava.com/athletes/120805648" target="_blank"><i class="fab fa-strava"></i> Strava profile</a></li>
+    <li><a href="https://photos.app.goo.gl/hQsWovR1ucnhaUZd6" target="_blank"><i class="fa-solid fa-camera"></i> A collection of photos I've taken</a></li>
+  </ul>
 
 
-    <footer>
-        <p>Copyright &copy; Oscar Welton-Rosie, <span id="currentYear"></span>.</p>
-    </footer>
+  <footer>
+    <p>
+      Copyright &copy; Oscar Welton-Rosie,
+      <span id="currentYear"></span>.
+    </p>
+  </footer>
 
-    <script src="./scripts/year.js"></script>
+  <script src="./scripts/year.js"></script>
 </body>
 </html>
