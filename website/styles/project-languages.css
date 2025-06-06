@@ -1,0 +1,35 @@
+.language-tags {
+    margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.lang-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.25rem 0.6rem;
+    background-color: #f4f4f4;
+    border-radius: 999px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.08);
+    font-family: system-ui, sans-serif;
+}
+
+.lang-tag i {
+    font-size: 1.3rem;
+}
+
+.lang-tag i.fa-html5 {
+    color: #e34f26;
+}
+
+.lang-tag i.fa-css3-alt {
+    color: #1572B6;
+}
+
+.lang-tag i.fa-js {
+    color: #e6c200;
+}
