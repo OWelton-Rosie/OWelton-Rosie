@@ -19,6 +19,10 @@ body {
     margin: auto;
 }
 
+::selection {
+    background-color: #85c9e6;
+}
+
 /* Header */
 header {
     text-align: center;
