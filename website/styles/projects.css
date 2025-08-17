@@ -2,7 +2,13 @@
     display: grid;
     gap: 1.5rem;
     margin-top: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+
+    /* make the grid responsive */
+    grid-template-columns: 1fr;
 }
+
 
 .project-card {
     background-color: #ffffff;
@@ -29,6 +35,5 @@
     text-decoration: none;
 }
 
-.project-card a:hover {
-    text-decoration: underline;
-}
+
+  
