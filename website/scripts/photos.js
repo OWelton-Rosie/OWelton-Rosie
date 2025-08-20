@@ -2,7 +2,7 @@ const photos = [
     { src: "assets/photos/IMG_6435.JPG", caption: "Sailboats on the water, Wellington Harbour." },
     { src: "assets/photos/IMG_6441.JPG", caption: "The rocks of Wellington Harbour." },
     { src: "assets/photos/IMG_6697.JPG", caption: "The pools and rocks of Island Bay." },
-    { src: "assets/photos/IMG_6716.JPG", caption: "The Sun illuminating the football fields." },
+    { src: "assets/photos/IMG_6716.JPG", caption: "The Sun illuminating the Liardet Street park football fields." },
     { src: "assets/photos/IMG_6720.JPG", caption: "Vew of Wellington city from the top of Hutchison Road." },
     { src: "assets/photos/IMG_6792.JPG", caption: "Wellington city, seen from Liardet Street park." },
     { src: "assets/photos/IMG_6804.JPG", caption: "Looking out at Wellington city, with some crazy cloud formations" },
