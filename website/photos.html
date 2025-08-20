@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Photo Carousel</title>
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+  <link rel="stylesheet" href="./styles/buttons.css">
+  <style>
+    .carousel { position: relative; max-width: 600px; margin: auto; }
+    img { width: 100%; border-radius: 8px; }
+    #caption { margin-top: 0.5rem; font-size: 1rem; color: #444; text-align: center; }
+  </style>
+</head>
+<body>
+    <header>
+      <nav class="nav-buttons">
+        <a href="./index.html" class="nav-btn">Home</a>
+        <a href="./about.html" class="nav-btn">About</a>
+        <a href="./speedcubing.html" class="nav-btn">Speedcubing</a>
+        <a href="./projects.html" class="nav-btn">Projects</a>
+        <a href="./blog.html" class="nav-btn">Blog</a>
+        <a href="./contact.html" class="nav-btn">Contact</a>
+      </nav>
+      <h1>My photos</h1>
+    </header>
+
+  <div class="carousel">
+    <img id="photo" src="assets/photos/IMG_6435.JPG" alt="Sailboats on the water.">
+    <p id="caption">photo caption</p>
+  </div>
+  <div class="photo-buttons">
+    <button class="carousel-btn" onclick="prev()">Prev</button>
+    <button class="carousel-btn" onclick="next()">Next</button>
+  </div>
+  
+  
+
+  <script src="./scripts/photos.js"></script>
+</body>
+</html>
