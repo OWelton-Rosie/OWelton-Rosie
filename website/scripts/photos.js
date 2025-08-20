@@ -9,7 +9,10 @@ const photos = [
     { src: "assets/photos/IMG_7028.JPG", caption: "View of Red Rocks." },
     { src: "assets/photos/IMG_7740.JPG", caption: "Oriental Bay." },
     { src: "assets/photos/IMG_7799.JPG", caption: "Looking out at Wellington city from the streets of Mt Victoria" },
-    { src: "assets/photos/IMG_6999.JPG", caption: "Looking out at Wellington city from the Mt Victoria lookout" }
+    { src: "assets/photos/IMG_6999.JPG", caption: "Looking out at Wellington city from the Mt Victoria lookout" },
+    { src: "assets/photos/IMG_6718.JPG", caption: "Morning Sun seen from the foot of Dransfield Street." },
+    {src: "assets/photos/IMG_7024.JPG", caption: "A horse at the Manawa Karioi restoration project." },
+
 
   ];
   let index = 0;
