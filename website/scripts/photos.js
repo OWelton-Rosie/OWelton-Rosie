@@ -5,7 +5,7 @@ const photos = [
     { src: "assets/photos/IMG_6716.JPG", caption: "The Sun illuminating the Liardet Street park football fields." },
     { src: "assets/photos/IMG_6720.JPG", caption: "Vew of Wellington city from the top of Hutchison Road." },
     { src: "assets/photos/IMG_6792.JPG", caption: "Wellington city, seen from Liardet Street park." },
-    { src: "assets/photos/IMG_6804.JPG", caption: "Looking out at Wellington city, with cloud formations creating a beautiful skyline" },
+    { src: "assets/photos/IMG_6804.JPG", caption: "Looking out at Wellington city, with cloud formations creating a beautiful skyline." },
     { src: "assets/photos/IMG_7028.JPG", caption: "View of the Red Rocks hills." },
     { src: "assets/photos/IMG_7740.JPG", caption: "View of Oriental Bay." },
     { src: "assets/photos/IMG_7799.JPG", caption: "Looking out at Wellington city from the streets of Mt Victoria." },
