@@ -1,6 +1,8 @@
 # Oscar Welton-Rosie
 I'm a web developer, high school student and speedcuber
 
+![Portrait of me](https://owelton-rosie.pages.dev/assets/portrait.jpeg)
+
 ## Contact me:
 - 🌐 [My website](https://owelton-rosie.pages.dev)
 - ✉️ [oweltonrosie@proton.me](mailto:oweltonrosie@proton.me) 
