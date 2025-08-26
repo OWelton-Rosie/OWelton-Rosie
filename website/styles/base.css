@@ -108,4 +108,12 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.noscript-message {
+    color: #b00020;       /* deep red for warning */
+    font-style: italic;   /* makes it stand out */
+    font-weight: bold;
+    padding: 6px 0;
+}
+
+
 
