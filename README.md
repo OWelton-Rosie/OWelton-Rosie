@@ -1,7 +1,7 @@
 # Oscar Welton-Rosie
 I'm a web developer, high school student and [speedcuber](https://oweltonrosie.com/speedcubing).
 
-I'm also not averse to playing around with Python scripts
+I'm also not averse to playing around with Python scripts.
 
 ## Contact me:
 - 🌐 [My website](https://oweltonrosie.com)
