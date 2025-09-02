@@ -8,9 +8,12 @@
 }
 
 img {
+    display: block;     /* Make it block so margin works */
+    margin: 0 auto;     /* Centers horizontally */
     width: 50%;
     height: 50%;
 }
+
 
 
 /* portrait images */
