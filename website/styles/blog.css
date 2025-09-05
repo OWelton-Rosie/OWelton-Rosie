@@ -1,0 +1,43 @@
+.date {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Blog-specific styles */
+
+/* Section headings */
+h1 {
+    font-size: 1.9rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    color: #1f2937;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 0.3rem;
+}
+
+/* Blog post list */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+ul li {
+    margin-bottom: 0.9rem;
+    padding: 0.6rem 0.8rem;
+    background-color: #d1d5db;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+ul li a {
+    display: block;
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #1d4ed8;
+}
