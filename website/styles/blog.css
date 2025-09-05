@@ -16,13 +16,13 @@ h1 {
 }
 
 /* Blog post list */
-ul {
+.blog-ul {
     list-style: none;
     padding-left: 0;
     margin-bottom: 2rem;
 }
 
-ul li {
+.blog-ul .blog-li {
     margin-bottom: 0.9rem;
     padding: 0.6rem 0.8rem;
     background-color: #d1d5db;
@@ -31,13 +31,13 @@ ul li {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-ul li a {
+.blog-ul .blog-li a {
     display: block;
     color: #2563eb;
     font-weight: 500;
     text-decoration: none;
 }
 
-ul li a:hover {
+.blog-ul .blog-li a:hover {
     color: #1d4ed8;
 }
