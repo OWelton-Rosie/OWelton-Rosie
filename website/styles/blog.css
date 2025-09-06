@@ -52,3 +52,13 @@ h1 {
 .blog-ul .blog-li + .blog-li {
     margin-top: 0.5rem;
 }
+
+.blog-li-date {
+    font-size: 0.9rem;
+    text-align: left;
+    color: #6b7280; /* subtle gray for less harsh text */
+    font-style: italic;
+    margin-top: 3px;
+    margin-bottom: 0px
+}
+
