@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./styles/responsive.css">
   <link rel="stylesheet" href="./styles/buttons.css">
   <link rel="stylesheet" href="./styles/carousel.css">
+  <link rel="stylesheet" href="./styles/photoProtect.css">
   <link rel="icon" type="image/x-icon" href="./assets/favicon.jpeg">
 </head>
 <body>
@@ -31,14 +32,16 @@
     <h1>Oscar's photos</h1>
   </header>
 
-
   <p class="top-text">All these photos are owned by me. If you'd like to use any of them in a project or otherwise, please <a href="./contact.html">contact me</a>.</p>
-
   
   <div class="carousel">
-    <img id="photo" src="assets/photos/IMG_6435.JPG" alt="Sailboats on the water.">
+    <div class="photo-wrapper">
+      <img id="photo" src="assets/photos/IMG_6435.JPG" alt="Sailboats on the water.">
+      <div id="rightClickMessage">Images are protected. Please contact me if you'd like to use them.</div>
+    </div>
     <p id="caption">photo caption</p>
   </div>
+  
 
   <div class="photo-buttons">
     <button class="carousel-btn" onclick="prev()">Previous photo</button>
@@ -46,5 +49,9 @@
   </div>
   
   <script src="./scripts/photos.js"></script>
+
+  <script src="./scripts/protect_photos.js"></script>
+  
+  
 </body>
 </html>

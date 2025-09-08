@@ -3,3 +3,6 @@
 
 # Ignore json settings
 *settings.json
+
+# Ignore Mac system files
+*.DS_Store
