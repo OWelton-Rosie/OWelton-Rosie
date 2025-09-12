@@ -1,37 +1,36 @@
-/* Kiwi slang table styling */
+/* Minimal Kiwi slang table styling */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 2rem;
     font-size: 1rem;
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    background-color: transparent;
 }
 
 thead {
-    background-color: #f3f4f6;
+    background-color: #f9fafb;
 }
 
 thead th {
     text-align: left;
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 0.75rem;
     font-weight: 600;
-    color: #1f2937;
-    border-bottom: 2px solid #e5e7eb;
+    color: #111827;
+    border-bottom: 1px solid #e5e7eb;
 }
 
 tbody td {
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 0.75rem;
     border-bottom: 1px solid #e5e7eb;
     vertical-align: top;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f9fafb;
+    background-color: #ffffff;
 }
 
 tbody tr:hover {
-    background-color: #e0f2fe;
+    background-color: #f3f4f6;
 }
 
 td:first-child {
@@ -59,5 +58,6 @@ td:first-child {
         content: attr(data-label);
         font-weight: 600;
         color: #111827;
+        margin-right: 0.5rem;
     }
 }
