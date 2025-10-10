@@ -1,8 +1,7 @@
-# Ignore vscode settings
-/.vscode/ 
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Ignore json settings
-*settings.json
-
-# Ignore Mac system files
-*.DS_Store
+# VSCode settings
+.vscode/
