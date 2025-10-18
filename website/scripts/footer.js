@@ -3,7 +3,7 @@ const footerURL = 'https://oweltonrosie.com/footer.html';
 
 fetch(footerURL)
   .then(response => {
-    if (!response.ok) throw new Error('Footer not found');
+    if (!response.ok) throw new Error('Footer not found at ' + footerURL);
     return response.text();
   })
   .then(data => {
