@@ -17,8 +17,33 @@
   <link rel="stylesheet" href="./styles/carousel.css">
   <link rel="stylesheet" href="./styles/protect-photos.css">
   <link rel="icon" type="image/x-icon" href="./assets/favicon.jpeg">
+
+  <style>
+    /* Hide main content if JS is disabled */
+    noscript + * {
+      display: none;
+    }
+    noscript {
+      display: block;
+      text-align: center;
+      font-size: 1.2rem;
+      padding: 2em;
+      background: #f8d7da;
+      color: #721c24;
+    }
+  </style>
 </head>
 <body>
+  <noscript>
+    <style>
+      body > *:not(noscript) { display: none !important; }
+    </style>
+    <p style="text-align:center; font-size:1.2rem; padding:2em; background:#f8d7da; color:#721c24;">
+      This page requires JavaScript to view the photo gallery. Please enable JavaScript in your browser settings.
+    </p>
+  </noscript>
+  
+
   <header>
     <nav class="nav-buttons">
       <a href="./index.html" class="nav-btn">Home</a>
@@ -41,7 +66,6 @@
     </div>
     <p id="caption">photo caption</p>
   </div>
-  
 
   <div class="photo-buttons">
     <button class="carousel-btn" onclick="prev()">Previous photo</button>
@@ -49,12 +73,8 @@
   </div>
   
   <script src="./scripts/photos.js"></script>
-
   <script src="./scripts/protect_photos.js"></script>
-
   <div id="footer"></div>
   <script src="https://oweltonrosie.com/scripts/footer.js"></script>
-  
-  
 </body>
 </html>
