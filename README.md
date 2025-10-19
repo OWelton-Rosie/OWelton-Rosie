@@ -5,7 +5,7 @@ I'm also not averse to playing around with Python scripts.
 
 ## Contact me:
 - 🌐 [My website](https://oweltonrosie.com)
-- ✉️ [oweltonrosie@proton.me](mailto:oweltonrosie@proton.me)
+- ✉️ [oweltonrosie@gmail.com](mailto:oweltonrosie@gmail.com)
 
 ## Links/socials:
 - [YouTube channel](https://www.youtube.com/@OscarW-R)
