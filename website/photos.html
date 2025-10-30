@@ -19,10 +19,9 @@
   <link rel="icon" type="image/x-icon" href="./assets/favicon.jpeg">
 
   <style>
-    /* Hide main content if JS is disabled */
-    noscript + * {
-      display: none;
-    }
+    /* Remove this line — it hides all content after <noscript> */
+    /* noscript + * { display: none; } */
+
     noscript {
       display: block;
       text-align: center;
@@ -31,13 +30,21 @@
       background: #f8d7da;
       color: #721c24;
     }
+
+  /* Hide only the photo-related content and the header title */
+  header h1,
+  .top-text,
+  .carousel,
+  .photo-buttons {
+    display: none !important;
+  }
+</style>
+
   </style>
 </head>
+
 <body>
   <noscript>
-    <style>
-      body > *:not(noscript) { display: none !important; }
-    </style>
     <p style="text-align:center; font-size:1.2rem; padding:2em; background:#f8d7da; color:#721c24;">
       This page requires JavaScript to view the photo gallery. Please enable JavaScript in your browser settings.
     </p>
