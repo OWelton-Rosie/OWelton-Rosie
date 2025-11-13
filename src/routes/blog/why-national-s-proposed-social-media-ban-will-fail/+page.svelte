@@ -28,7 +28,7 @@
 
     <p>But I hear you arguing. Statistics are mere numbers and do not accurately reflect the population's true attitude towards banning social media. Perhaps you even altered the results of the survey. And when faced by the government's apparent attitude to evidence-based policy, it's clear that statistics hold virtually no weight. Instead, let's talk about the ban on a personal level. I use social media platforms including Discord, YouTube and WhatsApp (if WhatsApp can be considered a social media network). I don't use “typical” social media networks like Facebook, Instagram, X, TikTok, Snapchat and Reddit, but some of my friends do. Many of their parents have also tried to stop them from accessing social media through “house rules” and the aid of parental monitoring platforms, to little effect. Let's face it. If teenagers want to access social media, we will invariably find a way to do so. There are free-to-download plugins that mitigate parental monitoring programs, and they work. Likewise, the Reddit community r/teenagers has many threads dedicated to finding backdoors and workarounds for parental monitoring platforms. If parents can't stop determined teens from accessing social media, what hope does the government have?</p>
 
-    <img src="https://oweltonrosie.com/assets/blog/netNannyBypassWikihow.png" width="60%" height="60%" alt="A screenshot of a Wikihow article on how to bypass popular parental monitoring program NetNanny.">
+    <img src="/assets/blog/wikihow-netnanny.png" width="60%" height="60%" alt="A screenshot of a Wikihow article on how to bypass popular parental monitoring program NetNanny.">
     <p class="img-caption">A screenshot of a Wikihow article on how to bypass popular parental monitoring program NetNanny.</p>
 
 
