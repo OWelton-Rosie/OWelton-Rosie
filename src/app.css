@@ -1,0 +1,100 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+::selection {
+    background-color: #85c9e6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #6b7280;
+}
+
+/* Section headings */
+h1 {
+    font-size: 1.75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 0;
+    margin-left: 15px;
+    margin-bottom: 2rem;
+}
+
+ul li {
+    margin-left: 15px;
+
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #2563eb;
+    transition: color 0.2s ease;
+}
+
+a:hover,
+a:visited:hover {
+    color: #1d4ed8;
+}
+
+i {
+    margin-right: 0.5rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+    border-top: 1px solid #e5e7eb;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+
+}
+
+
