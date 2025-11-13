@@ -82,6 +82,7 @@
   </p>
   
   <div class="gallery">
+    
     <div class="photo-container">
       <img
         bind:this={photoRef}
@@ -95,10 +96,9 @@
       <div id="rightClickMessage" class:rightClickVisible={messageVisible}>
         Right-click disabled to protect content.
       </div>
+      <button class="nav-btn" on:click={prev}>⟵ Prev</button>
+      <button class="nav-btn" on:click={next}>Next ⟶</button>
     </div>
-
-    <button class="nav-btn" on:click={prev}>⟵ Prev</button>
-    <button class="nav-btn" on:click={next}>Next ⟶</button>
   </div>
   
   <Footer />
