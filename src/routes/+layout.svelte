@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-  </script>
+</script>
   
   <svelte:head>
 	<link rel="icon" href="/assets/favicon.jpeg" />

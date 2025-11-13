@@ -45,8 +45,8 @@
 
 <h1>My speedcubing journey</h1>
 <p>
-  I have been speedcubing since December 2023, have competed in <span id="total-comps">over 10</span> competitions
-  and completed <span id="total-solves">over 300</span> solves in WCA-recognised competitions.
+  I have been speedcubing since December 2023, have competed in over 10 competitions
+  and completed 300 solves in WCA-recognised competitions.
 </p>
 
 <img src="./assets/nats23Pyra.jpeg" alt="Solving a Pyraminx at the 2023 New Zealand National Championships" class="cubing-image">
