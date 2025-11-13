@@ -1,7 +1,7 @@
 # [Oscar Welton-Rosie](https://oweltonrosie.com)
 I'm a web developer, high school student and [speedcuber](https://oweltonrosie.com/speedcubing).
 
-![Alt text](oweltonrosie.com/assets/portrait_SMALL.jpg)
+![Alt text](https://oweltonrosie.com/assets/portrait_SMALL.jpg)
 
 ## Contact me:
 - 🌐 [My website](https://oweltonrosie.com)
