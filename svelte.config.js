@@ -5,9 +5,11 @@ import preprocess from 'svelte-preprocess';
 const config = {
   preprocess: preprocess(),
   kit: {
-    // Use the Cloudflare adapter
+    // Cloudflare adapter (used only when building for production)
     adapter: adapter(),
 
+    // You can leave the default paths for local dev
+    // out: '.svelte-kit/output' // optional
   }
 };
 
