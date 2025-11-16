@@ -57,14 +57,14 @@
 
 <p>
   I use the <a href="https://www.speedcubereview.com/4look.html" target="_blank">4 Look Last Layer</a> method to solve the 3x3x3 Rubik's Cube in under 20 seconds on average.
-  I am currently ranked 72nd in New Zealand for <a href="https://en.wikipedia.org/wiki/Pyraminx" target="_blank">Pyraminx</a> average, with a result of 5.67 seconds.
+  I am currently ranked in the top 100 in New Zealand for <a href="https://en.wikipedia.org/wiki/Pyraminx" target="_blank">Pyraminx</a> average, with a result of 5.08 seconds.
   You can see all of the results I have achieved in competitions on my
   <a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank">WCA Profile</a>.
 </p>
 
 <h1>Some of my notable speedcubing achievements</h1>
 <ul>
-  <li>In January 2025, I co-organised my first competition,
+  <li>In January 2025, I co-organised
       <a href="https://www.worldcubeassociation.org/competitions/JustSolveinJohnsonville2025" target="_blank">Just Solve in Johnsonville 2025</a>.
   </li>
   <li>In March 2025, I set a Pyraminx average of
