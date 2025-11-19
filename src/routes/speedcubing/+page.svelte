@@ -3,24 +3,15 @@
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
 
+  import { getUpcomingCompetitions } from './comps.js';
+
   let competitions = [];
   let error = '';
 
-  // Fetch upcoming competitions on mount
   onMount(async () => {
-    try {
-      const res = await fetch(
-        "https://www.worldcubeassociation.org/api/v0/users/2023WELT02?upcoming_competitions=true" // fetch upcoming comps
-      );
-      if (!res.ok) throw new Error("Network response was not ok");
-      const data = await res.json();
-
-      competitions = data.upcoming_competitions.sort(
-        (a, b) => new Date(a.start_date) - new Date(b.start_date)
-      );
-    } catch (err) {
-      error = "Failed to load competitions: " + err.message;
-    }
+    const result = await getUpcomingCompetitions();
+    competitions = result.competitions;
+    error = result.error;
   });
 </script>
 
@@ -103,7 +94,6 @@
   </ul>
 {/if}
 
-
 <h1>Speedcubing links</h1>
 <ul>
   <li><a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank">My competition results</a></li> 
@@ -115,19 +105,18 @@
 <Footer />
 
 <style>
-/* Styles for images in the speedcubing section */
 .cubing-image {
-    display: block; 
-    margin: 0 auto;      
-    width: 50%;
-    height: auto;   
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
 }
 
 .cubing-caption {
-    font-size: 0.9rem;
-    color: #6b7280;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 </style>
