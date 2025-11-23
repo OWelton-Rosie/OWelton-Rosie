@@ -5,11 +5,11 @@
   <header>
     <nav class="nav-buttons">
       <a href="/" class="nav-btn">Home</a>
-      <a href="/about" class="nav-btn">About</a>
+      <a href="/about" class="nav-btn">About me</a>
       <a href="/speedcubing" class="nav-btn">Speedcubing</a>
       <a href="/contact" class="nav-btn">Contact</a>
-      <a href="/blog" class="nav-btn">Blog</a>
       <a href="/photos" class="nav-btn">Photos</a>
+      <a href="/blog" class="nav-btn">Blog</a>
     </nav>
 
 

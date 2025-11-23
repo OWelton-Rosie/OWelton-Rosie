@@ -85,27 +85,10 @@
 
 <ul>
   <li>
-      You can email me at: 
-      <button
-          type="button"
-          class="copyable"
-          on:click={(e) => copy('oweltonrosie@gmail.com', e)}
-          title="Click to copy"
-      >
-          oweltonrosie@gmail.com
-      </button>
+      You can email me at: <button type="button" class="copyable" on:click={(e) => copy('oweltonrosie@gmail.com', e)} title="Click to copy">oweltonrosie@gmail.com</button>
   </li>
 
-  <li>
-      I'm also pretty active on Discord, where my username is 
-      <button
-          type="button"
-          class="copyable"
-          on:click={(e) => copy('oweltonrosie', e)}
-          title="Click to copy"
-      >
-          oweltonrosie
-      </button>.
+  <li>I'm also pretty active on Discord, where my username is <button type="button" class="copyable" on:click={(e) => copy('oweltonrosie', e)} title="Click to copy">oweltonrosie</button>.
   </li>
 </ul>
 
