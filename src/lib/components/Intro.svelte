@@ -4,7 +4,8 @@
 <p>(That's me and you arrived at my website.)</p>
 </div>
 
-<p>I'm a New Zealand high school student, web developer, speedcuber, athlete and Formula 1 fan.</p>
+<p>I'm a New Zealand high school student, <a href="/projects">web developer</a>, <a href="/speedcubing">speedcuber</a>, <a href="https://www.strava.com/athletes/120805648" target="_blank">athlete</a> and Formula 1 fan.</p>
+
 
 <p>On this site, you can <a href="/about">find out more about me</a>, learn about my hobby of <a href="/speedcubing">speedcubing</a>, read some of the <a href="/blog">things I've written</a>, and look at some of the <a href="/photos">photos I've taken</a>.</p>
 
