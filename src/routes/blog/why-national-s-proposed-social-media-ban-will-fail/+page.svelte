@@ -4,7 +4,7 @@
   </script>
   
   <svelte:head>
-    <title>Why National's proposed social media ban will fail</title>
+    <title>Why National's proposed social media ban will fail | Oscar Welton-Rosie</title>
   </svelte:head>
   
   <Header title="Why National's proposed social media ban will fail" />

@@ -38,7 +38,7 @@
 </script>
 
 <svelte:head>
-  <title>Oscar's photos</title>
+  <title>Photos | Oscar Welton-Rosie</title>
 </svelte:head>
 
 <Header title="Oscar's photos" />

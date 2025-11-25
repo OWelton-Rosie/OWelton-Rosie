@@ -4,7 +4,7 @@
   </script>
   
   <svelte:head>
-    <title>Here's what's wrong with NCEA</title>
+    <title>Here's what's wrong with NCEA | Oscar Welton-Rosie</title>
   </svelte:head>
   
   <Header title="Here's what's wrong with axing NCEA" />

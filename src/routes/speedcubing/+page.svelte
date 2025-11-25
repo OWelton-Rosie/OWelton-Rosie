@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-  <title>Speedcubing</title>
+  <title>Speedcubing | Oscar Welton-Rosie</title>
 </svelte:head>
 
 <Header title="Speedcubing" />

@@ -4,7 +4,7 @@
   </script>
   
   <svelte:head>
-    <title>Hello world</title>
+    <title>Hello world | Oscar Welton-Rosie</title>
   </svelte:head>
   
   <Header title="Hello world" />

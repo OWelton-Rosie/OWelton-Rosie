@@ -1,0 +1,35 @@
+export function getOrdinal(n) {
+    if (n > 3 && n < 21) return 'th';
+    switch (n % 10) {
+        case 1: return 'st';
+        case 2: return 'nd';
+        case 3: return 'rd';
+        default: return 'th';
+    }
+}
+
+export function getNZTimeString() {
+    const now = new Date();
+    const nzTime = new Date(
+        now.toLocaleString('en-US', { timeZone: 'Pacific/Auckland' })
+    );
+
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const months = [
+        'January', 'February', 'March', 'April', 'May', 'June',
+        'July', 'August', 'September', 'October', 'November', 'December'
+    ];
+
+    const dayName = days[nzTime.getDay()];
+    const day = nzTime.getDate();
+    const month = months[nzTime.getMonth()];
+    const year = nzTime.getFullYear();
+
+    const hourRaw = nzTime.getHours();
+    const minutes = nzTime.getMinutes().toString().padStart(2, '0');
+    const hour12 = hourRaw % 12 || 12;
+    const ampm = hourRaw >= 12 ? 'PM' : 'AM';
+
+    const ordinal = getOrdinal(day);
+    return `${hour12}:${minutes} ${ampm} on ${dayName} the ${day}${ordinal} of ${month} ${year}`;
+}

@@ -4,7 +4,7 @@
   </script>
   
   <svelte:head>
-    <title>Oscar's blog me</title>
+    <title>Blog | Oscar Welton-Rosie</title>
   </svelte:head>
   
   <Header title="Oscar's blog" />
