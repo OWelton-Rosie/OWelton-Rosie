@@ -27,7 +27,7 @@
 <p>The current world record for a single solve of a 3x3x3 Rubik's Cube is 3.05 seconds and is held by China's <a href="https://www.worldcubeassociation.org/persons/2023GENG02" target="_blank">Xuanyi Geng</a>.</p>
 
 <h1>My speedcubing journey</h1>
-<p>I have been speedcubing since December 2023, have competed in over 10 competitions and completed over 300 solves in WCA-recognised competitions.</p>
+<p>I have been speedcubing since December 2023, have competed in over 10 competitions and completed over 400 solves in WCA-recognised competitions.</p>
 
 <img src="./assets/nats23Pyra.jpeg" alt="Solving a Pyraminx at the 2023 New Zealand National Championships" class="cubing-image">
 <p class="cubing-caption"> Solving a Pyraminx at the <a href="https://www.worldcubeassociation.org/competitions/NewZealandNationals2023" target="_blank">2023 New Zealand National Championships</a>.</p>
