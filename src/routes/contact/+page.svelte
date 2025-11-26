@@ -62,10 +62,10 @@
 <h1 id="links">Links/socials</h1>
 
 <ul class="social-links">
-  <li><a href="https://github.com/OWelton-Rosie" target="_blank"><i class="fab fa-github"></i> GitHub profile</a></li>
-  <li><a href="https://www.youtube.com/@OscarW-R" target="_blank"><i class="fab fa-youtube"></i> YouTube channel</a></li>
-  <li><a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank"><i class="fas fa-cube"></i> Speedcubing competitor profile</a></li>
-  <li><a href="https://www.strava.com/athletes/120805648" target="_blank"><i class="fab fa-strava"></i> Strava profile</a></li>
+  <li><a href="https://github.com/OWelton-Rosie" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub profile</a></li>
+  <li><a href="https://www.youtube.com/@OscarW-R" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i> YouTube channel</a></li>
+  <li><a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank" rel="noopener noreferrer"><i class="fas fa-cube"></i> Speedcubing competitor profile</a></li>
+  <li><a href="https://www.strava.com/athletes/120805648" target="_blank" rel="noopener noreferrer"><i class="fab fa-strava"></i> Strava profile</a></li>
 </ul>
 
 <Footer />

@@ -45,7 +45,7 @@
 
 <p class="top-text">
   All these photos are owned by me. If you'd like to use any of them in a project or otherwise,
-  please <a href="./contact.html">contact me</a>.
+  please <a href="./contact">contact me</a>.
 </p>
 
 <!-- Gallery shown only when JS is on -->

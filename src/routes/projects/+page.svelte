@@ -16,35 +16,35 @@
   <div class="project">
     <h3>Taskifier</h3>
     <p>A feature-packed task manager and tracker. Built in vanilla JavaScript, HTML and CSS.</p>
-    <p><a href="https://taskifier.oweltonrosie.com/" target="_blank">View project</a></p>
-    <p><a href="https://github.com/OWelton-Rosie/Taskifier" target="_blank">GitHub repository</a></p>
+    <p><a href="https://taskifier.oweltonrosie.com/" target="_blank" rel="noopener noreferrer">View project</a></p>
+    <p><a href="https://github.com/OWelton-Rosie/Taskifier" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
   </div>
 
   <div class="project">
     <h3>Stationery</h3>
     <p>A dynamic stationery list generator for Wellington High School parents and students. Includes an interface for teachers to edit their subjects' stationery requirements. Built in vanilla JavaScript, HTML, and CSS.</p>
-    <p><a href="https://stationery.oweltonrosie.com/" target="_blank">View project</a></p>
-    <p><a href="https://github.com/OWelton-Rosie/stationery" target="_blank">GitHub repository</a></p>
+    <p><a href="https://stationery.oweltonrosie.com/" target="_blank" rel="noopener noreferrer">View project</a></p>
+    <p><a href="https://github.com/OWelton-Rosie/stationery" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
   </div>
 
   <div class="project">
     <h3>Cumulative calculator</h3>
     <p>A simple speedcubing cumulative time limit calculator. Used at speedcubing competitions to help judges track cumulative time limits for competitors. Built in React.</p>
-    <p><a href="https://cumulative.oweltonrosie.com/" target="_blank">View project</a></p>
-    <p><a href="https://github.com/OWelton-Rosie/Cumulative-calculator" target="_blank">GitHub repository</a></p>
+    <p><a href="https://cumulative.oweltonrosie.com/" target="_blank" rel="noopener noreferrer">View project</a></p>
+    <p><a href="https://github.com/OWelton-Rosie/Cumulative-calculator" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
   </div>
 
   <div class="project">
     <h3>wlg-comp-venues</h3>
     <p>A directory of venues in the Wellington region for organisers of <a href="/speedcubing">speedcubing</a> competitions. Built in CSS, vanilla JavaScript and HTML.</p>
-    <p><a href="https://wlg-comp-venues.pages.dev/" target="_blank">View project</a></p>
-    <p><a href="https://github.com/OWelton-Rosie/wlg-comp-venues" target="_blank">GitHub repository</a></p>
+    <p><a href="https://wlg-comp-venues.pages.dev/" target="_blank" rel="noopener noreferrer">View project</a></p>
+    <p><a href="https://github.com/OWelton-Rosie/wlg-comp-venues" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
   </div>
 
   <div class="project">
     <h3>Personal site</h3>
     <p>The website you're looking at. Built in SvelteKit and vanilla JavaScript.</p>
-    <p><a href="https://github.com/OWelton-Rosie/OWelton-Rosie" target="_blank">GitHub repository</a></p>
+    <p><a href="https://github.com/OWelton-Rosie/OWelton-Rosie" target="_blank" rel="noopener noreferrer">GitHub repository</a></p>
   </div>
 </section>
 
@@ -54,9 +54,22 @@
   <div class="project">
     <h3>kinch-api</h3>
     <p>A simple API providing global rankings and scores of all countries who have competed in speecubing competitions. Built in vanilla JavaScript and run daily by GitHub Actions.</p>
-    <p><a href="https://github.com/OWelton-Rosie/kinch-api" target="_blank">GitHub repository</a>.</p>
+    <p><a href="https://github.com/OWelton-Rosie/kinch-api" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
+  </div>
+  
+  <div class="project">
+    <h3>coin-flipper</h3>
+    <p>A Python project used for a statistics assignment to demonstrate the difference in experimental probability.</p>
+    <p><a href="https://github.com/OWelton-Rosie/coin-flipper" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
   </div>
 </section>
+
+<h1>Open source contributions</h1>
+<p>In addition to the projects listed above, I've also contributed to the following open source projects:</p>
+<ul>
+  <li><a href="https://github.com/speedcubingnz2025/speedcubing.org.nz/commits?author=OWelton-Rosie" target="_blank" rel="noopener noreferrer">speedcubingnz2025/speedcubing.org.nz</a></li>
+  <li><a href="https://github.com/spencerchubb/cubingapp/commits?author=OWelton-Rosie" target="_blank" rel="noopener noreferrer">spencerchubb/cubingapp</a></li>
+</ul>
 
 <Footer />
 
