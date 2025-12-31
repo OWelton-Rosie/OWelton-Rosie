@@ -52,12 +52,6 @@
   <h1>Smaller projects</h1>
 
   <div class="project">
-    <h3>kinch-api</h3>
-    <p>A simple API providing global rankings and scores of all countries who have competed in speecubing competitions. Built in vanilla JavaScript and run daily by GitHub Actions.</p>
-    <p><a href="https://github.com/OWelton-Rosie/kinch-api" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
-  </div>
-  
-  <div class="project">
     <h3>coin-flipper</h3>
     <p>A Python project used for a statistics assignment to demonstrate the difference in experimental probability.</p>
     <p><a href="https://github.com/OWelton-Rosie/coin-flipper" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
