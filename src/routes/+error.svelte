@@ -2,11 +2,9 @@
 	export let error;
 	export let status;
 
-   import Header from '$lib/components/Header.svelte';
    import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<Header />
 
 <div class="error-text">
 <h1>{status}</h1>
