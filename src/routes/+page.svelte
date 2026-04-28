@@ -1,6 +1,7 @@
 <script>
     import Intro from '$lib/components/Intro.svelte';
     import Footer from '$lib/components/Footer.svelte';
+    import Social from '$lib/components/Social.svelte';
 </script>
 
 <div class="hero-content">
@@ -9,7 +10,8 @@
 </div>
 
 <Intro />
-
+<Social />
+<Footer />
 
 <style>
 img {
@@ -27,7 +29,8 @@ img {
     font-size: 3rem;
 }
 </style>
-<Footer />
+
+
 
 
 
