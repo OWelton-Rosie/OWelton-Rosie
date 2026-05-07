@@ -1,5 +1,5 @@
 <footer>
-<p>Copyright © Oscar Welton-Rosie, 2025</p>
+<p>Copyright © Oscar Welton-Rosie, 2026</p>
 </footer>
 
 <style>
