@@ -1,11 +1,11 @@
 <script>
     import Intro from '$lib/components/Intro.svelte';
-    import Footer from '$lib/components/Footer.svelte';
     import Social from '$lib/components/Social.svelte';
+    import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <div class="hero-content">
-    <img src="/assets/portrait.jpg" alt="Oscar Welton-Rosie Portrait" class="hero-portrait" />
+    <img src="/assets/portrait_NEW.jpeg" alt="Oscar Welton-Rosie Portrait" class="hero-portrait" />
 <h1>Oscar Welton-Rosie</h1>
 </div>
 
