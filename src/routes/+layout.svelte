@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+  let { children } = $props();
 </script>
   
   <svelte:head>
@@ -7,5 +8,4 @@
       <title>Oscar Welton-Rosie</title>
   </svelte:head>
   
-  <slot />
-  
+{@render children()}  
