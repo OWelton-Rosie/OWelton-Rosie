@@ -4,7 +4,7 @@
 
 <script>
     import Header from '$lib/components/Writing_Header.svelte';
-    import Footer from '$lib/components/Writing_Footer.svelte';
+    import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <Header />

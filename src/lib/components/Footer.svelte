@@ -1,9 +1,13 @@
 <footer>
 <div class="icon-row">
     <a href="/" aria-label="Home"><i class="fa-solid fa-house"></i></a>
+    <a href="/projects" aria-label="Projects"><i class="fa-solid fa-briefcase"></i></a>
+    <a href="/writing" aria-label="Writing"><i class="fa-solid fa-book"></i></a>
     <a href="mailto:oweltonrosie@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email me"><i class="fa-solid fa-envelope"></i></a>
     <a href="https://github.com/OWelton-Rosie" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.strava.com/athletes/120805648" target="_blank" rel="noopener noreferrer" aria-label="Strava"><i class="fa-brands fa-strava"></i></a>
 </div>
+
 
 <p>Copyright © Oscar Welton-Rosie, 2026</p>
 </footer>
