@@ -15,7 +15,7 @@
 
 
 <h2>Contact me</h2>
-<p>If you want to find out more about me, you can <a href="/projects">look at some of the stuff I've written</a>, check out my <a href="/things">favourite things</a>, read some <a href="/writing">things I've written</a>, or reach out via the following:</p>
+<p>If you want to find out more about me, you can check out my <a href="/things">favourite things</a>, read some <a href="/writing">things I've written</a>, or reach out via the following:</p>
 <ul>
     <li><a href="mailto:oweltonrosie@gmail.com">oweltonrosie@gmail.com</a></li>
     <li>@oweltonrosie on Discord</li>
