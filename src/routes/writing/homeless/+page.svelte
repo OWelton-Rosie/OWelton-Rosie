@@ -49,3 +49,5 @@
 <p>In short, move-on orders may make homelessness less visible, but pushing people out of sight does not create housing, stability, or safety.</p>
 
 <p>If the goal of the orders was to "fix" homelessness, it falls short. But if the goal was to pretend it isn’t there, then it might just be the “perfect solution” after all.</p>
+
+<Footer />
