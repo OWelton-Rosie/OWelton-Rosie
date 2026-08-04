@@ -19,15 +19,4 @@
     <li>@oweltonrosie on Discord</li>
 </ul>
 
-<p>I'm also on the following platforms:</p>
-<ul>
-    <li>GitHub</li>
-    <li>Strava</li>
-    <li>Instagram</li>
-    <li>Facebook</li>
-    <li>X</li>
-
-</ul>
-
-
 <Footer />

@@ -7,7 +7,7 @@
 </div>
 
 
-<p>Copyright © Oscar Welton-Rosie, 2026</p>
+<p>Copyright © Oscar Welton-Rosie, 2026.</p>
 </footer>
 
 <style>

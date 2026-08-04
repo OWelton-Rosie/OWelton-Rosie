@@ -38,7 +38,7 @@
 <h2>Personal website</h2>
 <p>Personal portfolio website built in SvelteKit.</p>
 <p>
-  <a href="/">Live site</a>.
+  <a href="/">Live site (clearnet)</a>. <a href="http://47eegzufzvdwhxg7cmiscimro4oau5eugahnytik2od3ssux52ixv6id.onion/" target="_blank" rel="noopener noreferrer">Live site (Tor)</a>.
   <a href="https://github.com/OWelton-Rosie/OWelton-Rosie" target="_blank" rel="noopener noreferrer">Source code</a>
 </p>
 
