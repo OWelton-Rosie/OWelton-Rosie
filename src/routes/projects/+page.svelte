@@ -35,4 +35,11 @@
   <a href="https://github.com/OWelton-Rosie/taskifier" target="_blank" rel="noopener noreferrer">Source code</a>
 </p>
 
+<h2>Personal website</h2>
+<p>Personal portfolio website built in SvelteKit.</p>
+<p>
+  <a href="/">Live site</a>.
+  <a href="https://github.com/OWelton-Rosie/OWelton-Rosie" target="_blank" rel="noopener noreferrer">Source code</a>
+</p>
+
 <Footer />
