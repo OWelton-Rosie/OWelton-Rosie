@@ -11,7 +11,7 @@
 
 <div class="hero-content">
 <h1>Projects</h1>
-<p>A collection of things I've written</p>
+<p>A collection of things I've built.</p>
 </div>
 
 <h2>WCA Regulations Assistant</h2>
@@ -36,9 +36,9 @@
 </p>
 
 <h2>Personal website</h2>
-<p>Personal portfolio website built in SvelteKit.</p>
+<p>Personal portfolio/blog website built in SvelteKit.</p>
 <p>
-  <a href="https://oweltonrosie.com/" target="_blank" rel="noopener noreferrer">Live site (clearnet)</a>. <a href="http://47eegzufzvdwhxg7cmiscimro4oau5eugahnytik2od3ssux52ixv6id.onion/" target="_blank" rel="noopener noreferrer">Live site (Tor)</a>.
+  <a href="https://oweltonrosie.com/" target="_blank" rel="noopener noreferrer">Live site</a>. <a href="http://47eegzufzvdwhxg7cmiscimro4oau5eugahnytik2od3ssux52ixv6id.onion/" target="_blank" rel="noopener noreferrer">Live site (Tor mirror)</a>.
   <a href="https://github.com/OWelton-Rosie/OWelton-Rosie" target="_blank" rel="noopener noreferrer">Source code</a>
 </p>
 
