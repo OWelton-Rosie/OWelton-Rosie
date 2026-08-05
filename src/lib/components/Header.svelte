@@ -1,1 +1,4 @@
-<h2><a href="/">Home</a></h2>
+<nav class="breadcrumbs">
+    <a href="/">Home</a>
+</nav>
+
