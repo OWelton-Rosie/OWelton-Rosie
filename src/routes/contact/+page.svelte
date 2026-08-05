@@ -15,7 +15,7 @@
 </div>
 
 <ul>
-    <li><a href="mailto:oweltonrosie@proton.me">oweltonrosie@proton.me</a> (my public PGP key can be found <a href="/pgp.txt">here</a>)</li>
+    <li><a href="mailto:oweltonrosie@proton.me">oweltonrosie@proton.me</a> (my public PGP key can be found <a href="/pgp.txt" target="_blank">here</a>)</li>
     <li>@oweltonrosie on Discord</li>
 </ul>
 
