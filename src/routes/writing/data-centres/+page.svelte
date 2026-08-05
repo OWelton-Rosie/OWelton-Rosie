@@ -22,9 +22,9 @@
 
 <p>However, like all good press releases, the document is gloriously vague. The term “AI data centre” appears six times in the 418-word statement, yet the term “AI data centre” is never defined, which leads me to the following question: what is an AI data centre? Is it a computing facility that exclusively works with AI models? Or is it a facility that, like virtually all other large computing facilities, works with a mix of AI and non-AI computing? </p>
 
-<p>If that sounds strange, remember this: the same company that runs Gemini runs Google Search, YouTube, Gmail. The above examples are not edge cases. They're the state of modern computing. </p>
+<p>If that sounds strange, remember this: the same company that runs Gemini runs Google Search, YouTube, and Gmail. Welcome to modern computing.</p>
 
-<p>A data centre is a group of servers. I could install a server rack in my bedroom, train AI models on it, and call it an “AI data centre”. </p>
+<p>Fundamentally, a data centre is a group of servers. I could install a server rack in my bedroom, train AI models on it, and call it an “AI data centre”.</p>
 
 <p>Definitions matter because laws and regulations do not apply to political slogans. They apply to real things with real impacts. If Parliament were to pass a law targeting “AI data centres”, it would have to qualify what an “AI data centre” actually is. Is the criterion ownership? Workload? Hardware? Electricity consumption? GPU count? Percentage of computing power allocated to AI? A Google facility that spends 95% of its time serving YouTube videos but occasionally trains Gemini models becomes an "AI data centre", while a university supercomputer performing climate modelling with thousands of GPUs does not. The distinction is political, not technical.</p>
 
