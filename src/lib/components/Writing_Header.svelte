@@ -1,2 +1,6 @@
-<h2><a href="/">Home</a></h2>
-<h2><a href="/writing">⬅️ Writing</a></h2>
+<nav class="breadcrumbs">
+    <a href="/">Home</a>
+    <span>/</span>
+    <a href="/writing">Writing</a>
+</nav>
+
