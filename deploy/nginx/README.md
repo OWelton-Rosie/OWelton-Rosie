@@ -8,3 +8,8 @@ gcloud compute ssh tor-vm
 ```bash
 ./deploy.sh
 ```
+
+To exit the SSH:
+```bash
+exit
+```
