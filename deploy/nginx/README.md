@@ -6,6 +6,10 @@ gcloud compute ssh tor-vm
 ```
 
 ```bash
+cd OWelton-Rosie
+```
+
+```bash
 ./deploy.sh
 ```
 
