@@ -12,6 +12,7 @@
 <div class="hero-content">
 <h1>The perfect solution to homelessness? Yes, according to Paul Goldsmith and Mark Mitchell</h1>
 <p>Published: March 27, 2026</p>
+<p class="tags">Tags: <a href="/writing/categories/politics">politics</a></p>
 </div>
 
 <p>On the 22nd of February, National MPs Paul Goldsmith and Mark Mitchell <a href="https://www.beehive.govt.nz/release/move-orders-target-disorderly-behaviour" target="_blank" rel="noopener noreferrer">announced</a> their breakthrough solution to homelessness: move rough sleepers on and pretend they don’t exist. It’s the perfect solution!</p>

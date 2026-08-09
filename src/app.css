@@ -97,3 +97,9 @@ a:hover,
 a:visited:hover {
     color: #1d4ed8;
 }
+
+
+.tags {
+    margin-bottom: 4rem;
+    font-size: 0.9rem;
+}

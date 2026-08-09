@@ -12,6 +12,7 @@
 <div class="hero-content">
 <h1>Here's what's wrong with the coalition government's plan to scrap NCEA</h1>
 <p>Published: August 13, 2025</p>
+<p class="tags">Tags: <a href="/writing/categories/politics">politics</a>, <a href="/writing/categories/education">education</a></p>
 </div>
 
 
