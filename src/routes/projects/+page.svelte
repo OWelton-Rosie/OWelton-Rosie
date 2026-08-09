@@ -42,6 +42,7 @@
   <a href="https://github.com/OWelton-Rosie/OWelton-Rosie" target="_blank" rel="noopener noreferrer">Source code</a>
 </p>
 
+<br>
 <p>Other projects can be viewed on my <a href="https://github.com/OWelton-Rosie?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
 
 <Footer />
