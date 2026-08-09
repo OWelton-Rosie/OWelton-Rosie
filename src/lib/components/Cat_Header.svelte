@@ -3,6 +3,6 @@
     <span>/</span>
     <a href="/writing">Writing</a>
     <span>/</span>
-    <a href="/writing/categories/politics">Politics</a>
+    <a href="/writing/categories">Categories</a>
 </nav>
 
