@@ -15,7 +15,7 @@
 <p class="tags">Tags: <a href="/writing/categories/tech">tech</a>, <a href="/writing/categories/politics">politics</a></p>
 </div>
 
-<p>A quick one today, addressing a political slogan that’s been gaining traction recently. The Green Party is calling for a one-year moratorium on the consenting of new “hyperscale AI data centres”, citing the environmental impacts of AI.</p>
+<p>The Green Party is calling for a one-year moratorium on the consenting of new “hyperscale AI data centres”, citing the environmental impacts of AI.</p>
 
 <p>The press release (which can be read <a href="https://www.google.com/url?q=https://www.greens.org.nz/call_for_one_year_pause_on_consenting_new_ai_data_centres&sa=D&source=docs&ust=1785901625890573&usg=AOvVaw1g-Ei8_5g4pbrNhcfJRchc" target="_blank" rel="noopener noreferrer">here</a>) calls for a “one-year moratorium on new AI data centres”, with a particular focus on “hyperscale AI data centres”. The document explicitly references the (already consented) Datagrid data centre, which will be built near Invercargill and will use approximately <a href="https://www.stuff.co.nz/politics/361012168/southlands-hyperscale-ai-factory-two-years-away-if-it-was-here-today-wed-have-issues" target="_blank" rel="noopener noreferrer">7%</a> of New Zealand’s electricity generation (second only to the Tiwai Point Aluminium Smelter).</p>
 
