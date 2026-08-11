@@ -26,12 +26,4 @@ img {
         width: 90%;
     }
 }
-
-.hero-content {
-    text-align: center;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-}
 </style>

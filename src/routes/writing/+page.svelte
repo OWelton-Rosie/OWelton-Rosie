@@ -10,7 +10,7 @@
 <Header /> 
 
 <div class="hero-content">
-<h1>A collection of things I've written</h1>
+<h1>Writing</h1>
 </div>
 
 <p>This is a collection of articles and opinion pieces I've written on various topics, listed in more or less chronological order.</p>
