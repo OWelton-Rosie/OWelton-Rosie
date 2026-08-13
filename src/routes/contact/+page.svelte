@@ -1,6 +1,8 @@
 <script>
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
+  import { Check } from 'lucide-svelte';
+
 
   let showCopied = $state(false);
   let copiedTimeout;
@@ -44,7 +46,8 @@
 
 {#if showCopied}
     <div class="copied-popup" role="status">
-        ✓ Email copied!
+        <Check />
+        Email copied!
     </div>
 {/if}
 
@@ -70,6 +73,9 @@
         bottom: 24px;
         left: 50%;
         transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        gap: 10px;
         padding: 12px 18px;
         border-radius: 10px;
         background: #1f2937;
