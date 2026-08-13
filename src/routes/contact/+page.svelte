@@ -1,8 +1,7 @@
 <script>
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
-  import { Check } from '@lucide/svelte';
-
+  import Check from '@lucide/svelte/icons/check';
 
   let showCopied = $state(false);
   let copiedTimeout;

@@ -1,5 +1,8 @@
 <script>
-    import { House, Briefcase, Book, Mail } from '@lucide/svelte';
+    import House from '@lucide/svelte/icons/house';
+    import Briefcase from '@lucide/svelte/icons/briefcase';
+    import Book from '@lucide/svelte/icons/book';
+    import Mail from '@lucide/svelte/icons/mail';
 </script>
 
 <footer>
