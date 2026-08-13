@@ -1,5 +1,5 @@
 <script>
-    import { House, Briefcase, Book, Mail } from 'lucide-svelte';
+    import { House, Briefcase, Book, Mail } from '@lucide/svelte';
 </script>
 
 <footer>
