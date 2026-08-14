@@ -4,7 +4,7 @@
 </script>
   
   <svelte:head>
-	<link rel="icon" href="/assets/favicon.jpeg" />
+	<link rel="icon" href="/assets/favicon.ico" />
       <title>Oscar Welton-Rosie</title>
   </svelte:head>
   
