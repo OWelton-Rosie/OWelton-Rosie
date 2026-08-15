@@ -19,8 +19,7 @@
     <p>
     </p>
 
-    <a href="/contact">Back to contact</a>
-    <a href="/">Back to home</a>
+    <p><a href="/contact">Back to contact</a>. <a href="/">Back to home</a></p>
 </div>
 
 <Footer />
