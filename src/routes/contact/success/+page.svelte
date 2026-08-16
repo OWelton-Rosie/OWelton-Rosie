@@ -16,9 +16,6 @@
     </div>
 
     <h1>Message sent!</h1>
-    <p>
-    </p>
-
     <p><a href="/contact">Back to contact</a>. <a href="/">Back to home</a></p>
 </div>
 
