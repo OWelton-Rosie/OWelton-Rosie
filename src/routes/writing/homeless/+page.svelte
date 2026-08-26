@@ -33,9 +33,9 @@
 
 <p>Even the government’s own ministries appear unconvinced.</p>
 
-<p>An <a href="https://www.rnz.co.nz/news/politics/588495/move-on-orders-didn-t-get-backing-of-housing-or-justice-ministries" target="_blank" rel="noopener noreferrer">RNZ article</a> reports that the move-on orders didn’t receive the backing of the Ministry of Housing and Urban Development (MUHD), or the Ministry of Justice. In fact, Paul Goldsmith, Minister of Justice, told RNZ that the Ministry “hasn’t enthusiastically embraced” most of the law-and-order policies put forward by the government.</p>
+<p>An <a href="https://www.rnz.co.nz/news/politics/588495/move-on-orders-didn-t-get-backing-of-housing-or-justice-ministries" target="_blank" rel="noopener noreferrer">RNZ article</a> reports that the move-on orders didn’t receive the backing of the Ministry of Housing and Urban Development (MHUD), or the Ministry of Justice. In fact, Paul Goldsmith, Minister of Justice, told RNZ that the Ministry “hasn’t enthusiastically embraced” most of the law-and-order policies put forward by the government.</p>
 
-<p>Housing Minister Chris Bishop confirmed that while MUHD was consulted on the move-on orders, it did not support them, with Bishop accepting that their concerns around “housing instability” were “completely legitimate”.</p>
+<p>Housing Minister Chris Bishop confirmed that while the MHUD was consulted on the move-on orders, it did not support them, with Bishop accepting that their concerns around “housing instability” were “completely legitimate”.</p>
 
 <p>“It won’t surprise you to learn they weren’t supportive”, <a href="https://www.rnz.co.nz/news/politics/588495/move-on-orders-didn-t-get-backing-of-housing-or-justice-ministries" target="_blank" rel="noopener noreferrer">he admitted</a>.</p>
 
