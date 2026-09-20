@@ -1,8 +1,13 @@
 <script>
     import Header from '$lib/components/Header.svelte';
+
+    import { faGithub, faStrava } from '@fortawesome/free-brands-svg-icons';
+	import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
+
     import Footer from '$lib/components/Footer.svelte';
     import Check from '@lucide/svelte/icons/check';
     import Form from '$lib/components/Form.svelte';
+
 
     let showCopied = $state(false);
     let copiedTimeout;
@@ -56,6 +61,18 @@
     </div>
 {/if}
 
+<h1>Socials</h1>
+<div class="socials">
+	<a href="https://github.com/OWelton-Rosie" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+	    <FontAwesomeIcon icon={faGithub} />
+    </a>
+
+    <a href="https://www.strava.com/athletes/120805648" target="_blank" rel="noopener noreferrer"aria-label="Strava">
+	    <FontAwesomeIcon icon={faStrava} />
+    </a>
+</div>
+
+
 <Footer />
 
 <style>
@@ -102,4 +119,15 @@
             transform: translate(-50%, 0);
         }
     }
+
+    .socials {
+		display: flex;
+		gap: 1rem;
+	}
+
+	.socials :global(svg) {
+		width: 2rem;
+		height: 2rem;
+        color: black;
+	}
 </style>
