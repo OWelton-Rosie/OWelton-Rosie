@@ -17,7 +17,7 @@
 
 <ul>
     <li><a href="/writing/data-centres">Before banning "AI data centres", define one</a> (Published: August 5, 2026)</li>
-    <li><a href="/writing/homeless">The perfect solution to homelessness? Yes, according to Paul Goldsmith and Mark Mitchell</a> (Published: March 27, 2026)</li>
+    <li><a href="/writing/homeless">It's time for the move-on orders to move on</a> (Published: March 27, 2026)</li>
     <li><a href="/writing/NCEA">Here's what's wrong with the coalition government's plan to scrap NCEA</a> (Published: August 13, 2025)</li>
 </ul>
 

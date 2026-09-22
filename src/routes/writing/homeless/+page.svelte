@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>The perfect solution to homelessness? Yes, according to Paul Goldsmith and Mark Mitchell</title>
+    <title>It's time for the move-on orders to move on</title>
 </svelte:head>
 
 <script>
@@ -10,7 +10,7 @@
 <Header />
 
 <div class="hero-content">
-<h1>The perfect solution to homelessness? Yes, according to Paul Goldsmith and Mark Mitchell</h1>
+<h1>It's time for the move-on orders to move on</h1>
 <p>Published: March 27, 2026</p>
 </div>
 
