@@ -26,4 +26,4 @@ vite.config.ts.timestamp-*
 
 
 # WIP stuff
-src/routes/writing/asahi
+src/routes/writing/scrambler
